@@ -1,0 +1,4 @@
+#!/usr/bin/env node --harmony
+'use strict';
+var ggd = require(require('path').resolve(__dirname, '../lib/worker.js'));
+(new ggd).start(process.argv);

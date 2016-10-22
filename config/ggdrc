@@ -1,0 +1,13 @@
+interfaces:
+  http:
+    port: 8099
+    host: localhost
+#  https:
+#    driver: http
+#    port: 8100
+#    host: localhost
+#    tls: true
+storage:
+  driver: lawncipher
+  path: '~/.gg/data.lawncipher'
+  password: 'etsewbemDarcevIrukJemkagDavnahydWywiviRijOpacAfmij'
